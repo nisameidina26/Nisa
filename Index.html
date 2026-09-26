@@ -483,38 +483,32 @@
             </ol>
         </section>
 
-        <!-- SECTION 3: HUBUNGKAN 2 LAPTOP -->
-        <section id="koneksi" class="card">
-            <h2 class="section-title"><i class="fa-solid fa-laptop-code"></i> Menghubungkan 2 Laptop dengan Kabel LAN</h2>
-            <ol class="steps-list">
-                <li>
-                    <h4>Sambungkan Kabel</h4>
-                    <p>Tancapkan ujung RJ45 pertama ke port LAN Laptop A, dan ujung satunya lagi ke port LAN Laptop B.</p>
-                </li>
-                <li>
-                    <h4>Buka Network Connections (di Kedua Laptop)</h4>
-                    <p>Tekan tombol `Win + R`, ketik `ncpa.cpl` lalu tekan Enter.</p>
-                </li>
-                <li>
-                    <h4>Atur IP Address Laptop A</h4>
-                    <p>Klik kanan pada <strong>Ethernet</strong> > Pilih <strong>Properties</strong> > Klik 2x pada <strong>Internet Protocol Version 4 (TCP/IPv4)</strong>.<br>
-                    - Pilih <em>"Use the following IP address"</em><br>
-                    - IP Address: <code>192.168.1.1</code><br>
-                    - Subnet Mask: <code>255.255.255.0</code></p>
-                </li>
-                <li>
-                    <h4>Atur IP Address Laptop B</h4>
-                    <p>Lakukan hal yang sama pada Laptop B dengan IP berbeda dalam satu subnet:<br>
-                    - IP Address: <code>192.168.1.2</code><br>
-                    - Subnet Mask: <code>255.255.255.0</code></p>
-                </li>
-                <li>
-                    <h4>Uji Koneksi (Ping)</h4>
-                    <p>Buka Command Prompt (CMD) di Laptop A, ketik <code>ping 192.168.1.2</code>. Jika muncul balasan <em>"Reply from..."</em>, kedua laptop telah terhubung sempurna!</p>
-                </li>
-            </ol>
-        </section>
+    <!-- SECTION 3: PPT PREVIEW & DOWNLOAD -->
+    <section id="ppt">
+        <div class="container">
+            <div class="section-title">
+                <h2>Materi Presentasi (Canva)</h2>
+                <p>Preview dokumentasi modul dan lihat materi lengkap praktikum via Canva.</p>
+            </div>
 
+            <div class="ppt-wrapper">
+                <div class="iframe-container" style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">
+                    <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://www.canva.com/design/DAHWRo0b0PI/eB_5AgK_zs0od-0LBrd9ig/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"></iframe>
+                </div>
+
+                <div class="download-action">
+                    <div>
+                        <h4 style="font-size:1.1rem;"><i class="fa-solid fa-file-powerpoint" style="color: #00C4CC;"></i> Kabel LAN cross-over &amp; Networking Sharing</h4>
+                        <p style="font-size:0.85rem; color: var(--text-muted);">Format: Canva Interactive Presentation</p>
+                    </div>
+                    <a href="https://www.canva.com/design/DAHWRo0b0PI/eB_5AgK_zs0od-0LBrd9ig/view" target="_blank" class="btn">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i> Buka Slide Canva
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+        
         <!-- SECTION 4: SHARING FILE -->
         <section id="sharing" class="card">
             <h2 class="section-title"><i class="fa-solid fa-folder-open"></i> Cara Sharing File Antar Laptop</h2>
